@@ -1,0 +1,25 @@
+a)项目信息：
+标题：租房指南
+功能：在网页中上房源信息，输入工作地点，地图上会显示出离工作地点乘坐地铁或者公交一个小时左右能够到达的地方，点击房源还会链接到相信的信息网页，查看房源的详细信息。
+
+b)作者信息及详细分工
+姓名：林怡婧
+学号：2017211707
+姓名：王月丽
+学号：2017211735
+分工：
+林怡婧：房源信息的爬取，生成CSV文件
+王月丽：网页部分、高德地图 JavaScript API 的使用
+
+c)开发环境/运行环境
+Python3.7/PyCharm /IDIE
+
+d)关键技术
+爬虫 、解析字体反爬、地图的网页显示、高德地图 JavaScript API 的使用
+
+e)使用的方法/资源：58同城的租房信息
+参考 https://www.cnblogs.com/eastonliu/p/9925652.html 字体反爬
+参考 https://blog.csdn.net/xinkexueguanli/article/details/52552132 爬虫部分
+script代码参考：https://lbs.amap.com/demo-center/js-api（高德开放平台示例中心）
+https://lbs.amap.com/api/javascript-api/summary/（高德帮助文档）
+网页代码框架搭建：https://blog.csdn.net/xinkexueguanli/article/details/52552132?tdsourcetag=s_pctim_aiomsg
